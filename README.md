@@ -99,4 +99,4 @@ Les contributions sont les bienvenues ! Veuillez suivre ces étapes :
 
 ## Auteurs
 
-- **Votre Nom** - [Votre Profil GitHub](https://github.com/kengnidoriane)
+- **Kengni Doriane** - [Kengni Doriane](https://github.com/kengnidoriane)
