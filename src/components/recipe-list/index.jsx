@@ -30,14 +30,14 @@ export default function RecipeItem({item}) {
         <div className="flex items-center justify-between mt-auto">
           <div className="flex items-center gap-1 text-gray-500">
             <Users className="w-4 h-4" />
-            <span className="text-sm">4 portions</span>
+            <span className="text-sm">4 servings</span>
           </div>
           
           <Link 
             to={`/recipe-item/${item?.id}`} 
             className='inline-flex items-center justify-center px-4 py-2 rounded-lg bg-emerald-600 text-white text-sm font-medium hover:bg-emerald-700 transition-colors'
           >
-            Voir la recette
+            See the Recipe
           </Link>
         </div>
       </div>

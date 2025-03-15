@@ -55,7 +55,7 @@ export default function Details() {
                 </div>
                 <div className="flex items-center gap-2 text-gray-600">
                   <Users className="w-5 h-5" />
-                  <span>4 portions</span>
+                  <span>4 servings</span>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function Details() {
               }`}
             >
               <Heart className={`w-5 h-5 ${isFavorite ? 'fill-current' : ''}`} />
-              {isFavorite ? 'Retirer des favoris' : 'Ajouter aux favoris'}
+              {isFavorite ? 'Remove from Favorites': 'Add to Favorites'}
             </button>
 
             <div className="mt-8">
