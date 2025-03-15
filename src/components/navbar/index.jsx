@@ -21,7 +21,7 @@ export default function Navbar() {
             name='search'
             value={searchParam}
             onChange={(event) => setSearchParam(event.target.value)}
-            placeholder='Search a recipe (apple, tofu, mango...)'
+            placeholder='Search a recipe  (apple, tofu, mango...)'
             className='w-full lg:w-96 bg-gray-50 p-3 pl-12 rounded-lg outline-none border border-gray-200 focus:border-emerald-500 transition-all'
           />
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
