@@ -73,7 +73,7 @@ export default function Details() {
             </button>
 
             <div className="mt-8">
-              <h2 className='text-2xl font-semibold text-gray-800 mb-6'>Ingrédients</h2>
+              <h2 className='text-2xl font-semibold text-gray-800 mb-6'>Ingredients</h2>
               <ul className='space-y-4'>
                 {recipeDetailsData?.recipe?.ingredients.map((ingredient, index) => (
                   <li 
